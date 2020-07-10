@@ -19,7 +19,18 @@
   text-align: center;
   cursor: pointer;
 }
-
 .period-active {
   background-color: #afb4ba;
+}
+.icon_footer{
+  transform: scale(2.0);
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.daily{
+  width: 80wv;
+  margin: 10px 10px 10px 10px;
+  background-color: thistle;
+  border-radius: 30px;
 }
