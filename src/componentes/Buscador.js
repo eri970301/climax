@@ -71,9 +71,9 @@ class Buscador extends Component {
           <h1 className="text-light">{name}</h1>
           <p className="text-light">
             <FontAwesomeIcon icon={faSun}></FontAwesomeIcon>
-            {actual}°F
+             {actual}°F
           </p>
-          <p className="text-light"><FontAwesomeIcon icon={faUniversalAccess}></FontAwesomeIcon>Se siente como: {feels_like}°F</p>
+          <p className="text-light"><FontAwesomeIcon icon={faUniversalAccess}></FontAwesomeIcon> Se siente como: {feels_like}°F</p>
           <p className="text-light">Temperatura minima: {temp_min}°F</p>
           <p className="text-light">Temperatura máxima: {temp_max}°F </p>
           <h4 className="text-light">Humedad: {humidity}</h4>
