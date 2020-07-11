@@ -19,7 +19,7 @@ class Buscador extends Component {
   }
   async Consulta(name) {
     let url =
-      "http://api.openweathermap.org/data/2.5/forecast?q=" +
+      "https://api.openweathermap.org/data/2.5/forecast?q=" +
       name +
       "&appid=b8e051523836c88159c71b1d5811143f";
     let res = await fetch(url);
